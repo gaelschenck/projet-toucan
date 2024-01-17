@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <link type="text/css" rel="stylesheet" href="./code/main.css">
+        <meta name="viewport" content="width=device-width">
+        <meta charset="utf-8">
+</head>
+<body>
+    <header>
+        <div id="burger">
+            <div class="burger"></div>
+            <div class="burger"></div>
+            <div class="burger"></div>
+        </div>
+        <div id="logo"><img src="./DALLE_2023-01-25_09.56.34_-_healthy_food_logo.png"></div>
+        <div id="orange">
+          <div id="select">
+            <input type="text" id="search" >
+            <button id="push">loupe</button>
+          </div>        
+          <nav>
+              <ul>
+                <li>Produit</li>
+                <li>Critères</li>
+                <li>Santé</li>
+                <li>Environnement</li>
+              </ul>
+          </nav>
+        </div>
+    </header><div id="hidden">
+    <section >
+        <h1>Produit</h1>
+        <img src="" id ="affichage">
+        <div id="base">
+            <p id="nomProduit"></p>
+            <p id="codeBarre"></p>
+            <p id="quantité"></p>
+            <p id="conditionnement"></p>
+            <p id="marque"></p>
+            <p id ="paysVente"></p>
+            <p id="allergene"></p>
+            <p id="additif"></p>
+        </div>
+    </section>
+    <section id="crit">
+      <h1>Critères</h1>
+      <img class="green score" id="nutriScore" src="">
+      <img class="green score" id="nova" src="">
+      <img class="green score"id="ecoScore" src="">
+    </section>
+    <section>
+      <h1>Santé</h1>
+      <p class="green">Nutrition :</p>
+      <img src="" id="Nutrition">
+    </section>
+    <section>
+      <h1>Environnement</h1>
+      <P class="green" id="Conditionnement"></p>
+      <p class="green" id="Transport"></p>
+  </section></div>
+    <script src="./code/api.js" type="text/javascript"></script>
+</body>
+</html>
